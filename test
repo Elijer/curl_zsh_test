@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo "testing 123"
+# echo "here is everything on your path:";
+sed 's/:/\n/g' <<< "$PATH"
